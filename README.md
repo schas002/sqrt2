@@ -5,4 +5,6 @@ Everything is located in the directories `sqrt2` and `sqrt2hex`. To keep the dat
 
 Both versions have the part before the decimal point (which is `1`) dismissed.
 
+The values were calculated with [y-cruncher](http://www.numberworld.org/y-cruncher/).
+
 You have permission to use this in your works, and you don't need to attribute me, but don't claim it as your own.
