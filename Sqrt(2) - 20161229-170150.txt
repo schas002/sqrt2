@@ -1,0 +1,86 @@
+﻿Benchmark Validation File - DO NOT MODIFY
+
+Validation Version:    1.3
+
+Program:               y-cruncher v0.7.1 Build 9466
+Tuning:                x64 SSE3 ~ Kasumi
+
+User:                  Andrew Zyabin
+
+Operating System:      Windows 6.1 Build 7601
+
+Processor(s):
+    Name:              Intel(R) Pentium(R) CPU P6100 @ 2.00GHz
+    Logical Cores:     2
+    Physical Cores:    2
+    Sockets:           1
+    NUMA Nodes:        1
+    Base Frequency:    1,995,049,813 Hz
+
+Motherboard:
+    Manufacturer:      Acer
+    Model:             ZQ8
+    Version:           Base Board Version
+    Serial Number:     Suppressed - Personally identifiable information is opt-in only.
+
+Memory:
+    Usable Memory:     3,144,482,816 (2.93 GiB)
+    Total Memory:      3,221,225,472 (3.00 GiB)
+    DIMM:              1.00 GiB -  - M471B2873FHS-CH9  
+    DIMM:              2.00 GiB -  - M471B5673FH0-CH9  
+
+Constant:              Square Root of 2
+Algorithm:             Newton's Method
+Decimal Digits:        1,000,000
+Hexadecimal Digits:    830,483
+Computation Mode:      Ram Only
+Threading Mode:        Push Pool  ->  2 / ?  (randomization on)
+Working Memory:        5,600,392 (5.34 MiB)
+Total Memory:          9,534,664 (9.09 MiB)
+
+Start Date:            Thu Dec 29 17:01:44 2016
+End Date:              Thu Dec 29 17:01:46 2016
+
+Total Computation Time:    0.121 seconds
+Start-to-End Wall Time:    2.161 seconds
+
+CPU Utilization:           90.55 %
+Multi-core Efficiency:     45.27 %
+
+Last Digits:
+2637136344 7000726319 2351521020 7475200984 5875093498  :  999,950
+0401237494 7972946621 2294899384 2044193016 9048412043  :  1,000,000
+
+Dec Counts: {99814,98924,100436,100191,100024,100155,99886,100008,100441,100121}
+Hex Counts: {51922,52021,52042,51521,51787,51815,51876,51804,52259,52005,52332,51768,51444,52030,51933,51924}
+
+Binary Hash: Floor(bin * 10^dec) mod (2^61 - 1) = 1667497326575606817
+
+Spot Check:                Good through 1,000,000
+Timer Sanity Check:        Passed
+Frequency Sanity Check:    Disabled in this version of y-cruncher
+Reference Clock:           TSC
+Reference Clock 0:         1,948,271
+Reference Clock 1:         78,315,705
+Reference Clock 2:         9,047,034
+Is Debugger Present:       No
+Is Contiguous:             Yes
+ECC Recovered Errors:      0
+
+Event Log:
+Thu Dec 29 17:01:44 2016	0.002	Reserving Working Memory
+Thu Dec 29 17:01:44 2016	0.008	Reserving Working Memory: 6.34 MiB
+Thu Dec 29 17:01:44 2016	0.008	Constructing Twiddle Tables
+Thu Dec 29 17:01:44 2016	0.018	Constructing Twiddle Tables: 3.75 MiB
+Thu Dec 29 17:01:44 2016	0.019	Begin Computation
+Thu Dec 29 17:01:44 2016	0.019	InvSqrt
+Thu Dec 29 17:01:44 2016	0.077	Writing hexadecimal Digits
+Thu Dec 29 17:01:45 2016	0.870	Base Converting
+Thu Dec 29 17:01:45 2016	0.933	Writing Decimal Digits
+Thu Dec 29 17:01:46 2016	2.110	Verifying Base Conversion
+Thu Dec 29 17:01:46 2016	2.160	End Computation
+
+----
+
+Checksum0: 61a2c433f3cfb6f4e88d4c7d7bb1330e24f0151d3c5a152209729b21b4e67027c4c3990853d01512469782d2ea3b5128d73d8f13d6add913e47cc1e853e2c4a9
+Checksum1: 029385378f13b010fae69df8a63cbdce1b760f8ced080e68aa41fb7aab8a7c4b002a75810be1e6e8ab98e89ce59b5c2afd083b679b125871ebebc8c02f1ee64e
